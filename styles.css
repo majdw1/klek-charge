@@ -1199,3 +1199,25 @@ body {
   box-shadow: 0 0 20px rgba(109, 206, 255, 0.25),
               0 0 30px rgba(168, 85, 247, 0.25);
 }
+
+
+/* ultra minimal cards */
+.card.ultra ul li {
+  font-size: 16px;
+  font-weight:700;
+  color:#eaf6ff;
+}
+
+.card.ultra h3 {
+  font-size:20px;
+  font-weight:800;
+  color:#7dd3fc;
+}
+
+.card.ultra .icon {
+  font-size:36px;
+  margin-bottom:8px;
+  background: linear-gradient(90deg,#4dbaff,#b06afc);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
