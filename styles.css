@@ -1221,3 +1221,82 @@ body {
   -webkit-background-clip:text;
   -webkit-text-fill-color:transparent;
 }
+
+
+/* how it works minimal */
+.how-steps{
+  display:flex;
+  gap:30px;
+  justify-content:center;
+  padding:40px 0;
+}
+.step-card{
+  background:#0d1220;
+  padding:20px;
+  border-radius:20px;
+  text-align:center;
+  width:30%;
+  border:1px solid rgba(90,180,255,0.4);
+  transition:0.25s;
+}
+.step-card:hover{
+  box-shadow:0 0 25px rgba(109,206,255,0.25);
+  transform:translateY(-4px);
+}
+.step-card .icon{
+  font-size:40px;
+  background: linear-gradient(90deg,#4dbaff,#b06afc);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  margin-bottom:10px;
+}
+
+/* HOW IT WORKS ELITE */
+.how-container { text-align:center; padding:60px 0; }
+.how-title {
+  font-size:32px;
+  background:linear-gradient(90deg,#4dbaff,#b06afc);
+  -webkit-background-clip:text; -webkit-text-fill-color:transparent;
+  margin-bottom:40px;
+}
+.how-steps { display:flex; gap:30px; justify-content:center; }
+.how-step{
+  background:#0e1423;
+  padding:25px;
+  border-radius:20px;
+  width:28%;
+  border:1px solid rgba(90,180,255,0.35);
+  transition:0.25s; text-align:center;
+}
+.how-step:hover{
+  transform:translateY(-6px);
+  box-shadow:0 0 25px rgba(109,206,255,0.25);
+}
+.how-step .icon{
+  font-size:40px;
+  margin-bottom:12px;
+  background:linear-gradient(90deg,#4dbaff,#b06afc);
+  -webkit-background-clip:text; -webkit-text-fill-color:transparent;
+}
+.how-container {
+  text-align: center;
+}
+
+.how-steps {
+  justify-content: center;
+}
+.how-step {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 900px) {
+  .how-steps {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .how-step {
+    width: 85%;
+  }
+}
